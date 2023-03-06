@@ -10,10 +10,11 @@ public class Pruebascanner {
 		System.out.printf("El triple es %d",numero *3).println();
 		
 		
-	if (numero ==1) {
-	  System.out.println("mensajes");
-	   numero=keyboard.nextInt();
+		if (numero ==1) {
+		  System.out.println("mensajes");
+		   numero=keyboard.nextInt();
+		
+		}
 
 	}
-
 }

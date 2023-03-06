@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Main1 {
+public class Main2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// crear una instancia de la clase Scanner pasando System.in al constructor 
+	
 		Scanner keyboard = new Scanner(System.in);
 		System.out.printf("Escribe en pantalla un número: ", keyboard);
-		// el programa se detiene en este punto hasta que el usuario introduza un número 		y pulse ENTER
+//		 		y pulse ENTER
 		int numero = keyboard.nextInt();
 		boolean valors=true;
-		// cerrar la instancia de la clase Scanner 
+	
 		while(valors) {
 			if (numero == 1) {
 				System.out.println("Gestores");

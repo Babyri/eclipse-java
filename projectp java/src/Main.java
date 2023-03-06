@@ -22,6 +22,5 @@ public class Main {
 		}
 		else { System.out.println("da igual");
         }
-		e=()
      }
 }
